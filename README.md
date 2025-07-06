@@ -1,6 +1,6 @@
 # notion-ui-optimizer
 
-A UserScript to streamline the notion.so UI experience by hiding certain unwanted buttons, renaming sidebar labels, and ensuring the Shared section renders properly. It improves the Notion interface by cleaning up clutter and fixing some UI rendering quirks.
+A userscript to streamline the notion.so UI experience by hiding certain unwanted buttons, renaming sidebar labels, and ensuring the Shared section renders properly. It improves the Notion interface by cleaning up clutter and fixing some UI rendering quirks.
 
 ## Features
 
