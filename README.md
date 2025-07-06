@@ -1,2 +1,2 @@
 # notion-ui-optimizer
-A userscript to streamline the Notion UI experience. 
+A UserScript to streamline the Notion UI experience. 
