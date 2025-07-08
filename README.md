@@ -35,13 +35,11 @@ A userscript to streamline the notion.so UI experience by hiding certain unwante
 To modify which buttons are hidden, update the svgClassTargets array in the script.
 
 ## Development Notes
-The script uses MutationObserver to detect when Notion’s sidebar loads, then initializes itself.
 
-Functions use retries with delays to handle dynamic content loading in Notion.
-
-The script employs a debounced function wrapper to avoid performance issues during rapid events like window resizing.
-
-Versioning follows semantic rules within the script metadata.
+- The script uses MutationObserver to detect when Notion’s sidebar loads, then initializes itself.
+- Functions use retries with delays to handle dynamic content loading in Notion.
+- The script employs a debounced function wrapper to avoid performance issues during rapid events like window resizing.
+- Versioning follows semantic rules within the script metadata.
 
 ## Known Limitations
 
