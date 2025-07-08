@@ -44,11 +44,14 @@ The script employs a debounced function wrapper to avoid performance issues duri
 Versioning follows semantic rules within the script metadata.
 
 ## Known Limitations
-UI element selectors rely on Notion’s current DOM structure, which may change and break the script.
 
-The script currently only supports English UI labels.
+- Occasionally, the script does not execute on the first page load and may require a manual refresh.
+- UI element selectors rely on Notion’s current DOM structure, which may change and break the script.
+- The script currently only supports English UI labels.
+- Some UI updates might not be instant if Notion changes how sections load.
 
-Some UI updates might not be instant if Notion changes how sections load.
+## Issues
+If you encounter any problems or bugs, please report them on the [GitHub Issues page](https://github.com/damiencurtis/notion-ui-optimizer/issues).
 
 ## Contributing
 Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
