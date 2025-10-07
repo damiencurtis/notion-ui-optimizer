@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         notion-ui-optimizer 1.0
+// @name         notion-ui-optimizer 1.1
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Last modified: 2025-07-06
+// @version      1.1
+// @description  Last modified: 2025-10-03
 // @author       damienc
 // @match        *://www.notion.so/*
 // @license      MIT
@@ -65,6 +65,13 @@
             });
         });
 
+        // Hide Notion AI button
+        const aiButtons = document.querySelectorAll('div[role="button"][aria-label="ai"]');
+aiButtons.forEach(btn => {
+    btn.style.display = 'none';
+    log('✅ Hiding Notion AI button by aria-label');
+});
+
         // Function: Hide any span elements containing the text "Edited"
         const editedTextElements = document.querySelectorAll('span');
         log('Scanning ' + editedTextElements.length + ' spans for "Edited"...');
@@ -111,7 +118,7 @@
     };
 
     // Function: Forces the Shared section to re-render by momentarily hiding it and then restoring it
-    const forceReloadSharedSection = () => {
+    const forceReloadSharedSection = () =>{
         const sharedSection = document.querySelector('.notion-outliner-shared');
         if (sharedSection) {
             log('🔁 Forcing reload of Shared section...');
@@ -182,4 +189,3 @@
     }, 400));
 
 })();
-
