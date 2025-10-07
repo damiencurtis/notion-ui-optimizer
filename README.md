@@ -4,6 +4,20 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 
 ---
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Development Notes](#development-notes)
+- [Known Limitations](#known-limitations)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
 ## Features
 
 - Hides specific UI buttons by targeting their SVG icons (e.g., lock, comment, star, mail icons).  
@@ -11,8 +25,8 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 - Forces the Shared section to re-render for proper display.  
 - Continuously monitors the UI to apply changes as pages load dynamically.  
 - Debounces UI updates during window resize to improve performance.  
-- Detailed console logging for debugging (can be toggled).
-- Compact header layout: reduces spacing when no cover image is present, aligns "Add cover" button with the page icon, restores default layout when a cover is added.
+- Detailed console logging for debugging (can be toggled).  
+- Compact header layout: reduces spacing when no cover image is present, aligns "Add cover" button with the page icon, restores default layout when a cover is added.  
 - Automatic hiding of Notion AI button.
 
 ---
@@ -42,9 +56,9 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
   ```js
   const ENABLE_LOGGING = true; // Set to false to disable logs
 
-To modify which buttons are hidden, update the svgClassTargets array in the script.
+- To modify which buttons are hidden, update the svgClassTargets array in the script.
 
-Development Notes
+## Development Notes
 The script uses MutationObserver to detect when Notion’s sidebar loads, then initializes itself.
 
 Functions use retries with delays to handle dynamic content loading in Notion.
@@ -53,20 +67,20 @@ The script employs a debounced function wrapper to avoid performance issues duri
 
 Versioning follows semantic rules within the script metadata.
 
-Known Limitations
+## Known Limitations
 UI element selectors rely on Notion’s current DOM structure, which may change and break the script.
 
 The script currently only supports English UI labels.
 
 Some UI updates might not be instant if Notion changes how sections load.
 
-Contributing
+### Contributing
 Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
 
-License
-MIT License © Damien C
+### License
+<small>MIT License © Damien Curtis<small>
 
-Contact
+### Contact
 Feel free to reach out or follow me for updates!
 
-Last modified: 2025-07-06
+<sub>Last modified: 2025-07-06</sub>
