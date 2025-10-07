@@ -12,6 +12,8 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 - Continuously monitors the UI to apply changes as pages load dynamically.  
 - Debounces UI updates during window resize to improve performance.  
 - Detailed console logging for debugging (can be toggled).
+- Compact header layout: reduces spacing when no cover image is present, aligns "Add cover" button with the page icon, restores default layout when a cover is added.
+- Automatic hiding of Notion AI button.
 
 ---
 
