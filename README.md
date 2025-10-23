@@ -4,6 +4,9 @@
 
 ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg)
 
+<img src="./notion-ui-optimizer.svg?refresh=2" alt="Notion UI Optimizer Logo" width="120">
+
+
 
 </p>
 <h1 align="center">notion-ui-optimizer</h1>
