@@ -14,7 +14,7 @@ Runs seamlessly in the Tampermonkey extension on Google Chrome.
 
 ## Table of Contents
 
-- [Features](#features)
+- [Full Features](#full-features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
