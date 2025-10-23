@@ -58,6 +58,8 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 
 - To modify which buttons are hidden, update the svgClassTargets array in the script.
 
+---
+
 ## Development Notes
 The script uses MutationObserver to detect when Notion’s sidebar loads, then initializes itself.
 
@@ -67,6 +69,8 @@ The script employs a debounced function wrapper to avoid performance issues duri
 
 Versioning follows semantic rules within the script metadata.
 
+---
+
 ## Known Limitations
 UI element selectors rely on Notion’s current DOM structure, which may change and break the script.
 
@@ -74,13 +78,27 @@ The script currently only supports English UI labels.
 
 Some UI updates might not be instant if Notion changes how sections load.
 
+---
+
 ### Contributing
 Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
 
-### License
+---
+
+### Feature Roadmap
+These are upcoming improvements planned for the Notion script:
+
+- [ ] Optimize spacing in header on Notion page
+- [ ] Remove "Notion AI" option in sidebar
+- [ ] Disable comments feature on all pages by default
+- [ ] Enable "Full width" setting on all pages by default
+      
+---
+
+## License
 <small>MIT License © Damien Curtis<small>
 
-### Contact
+## Contact
 Feel free to reach out or follow me for updates!
 
 <sub>Last modified: 2025-07-06</sub>
