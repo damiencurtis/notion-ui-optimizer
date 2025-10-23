@@ -12,7 +12,7 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 - [Configuration](#configuration)
 - [Development Notes](#development-notes)
 - [Known Limitations](#known-limitations)
-- [Contributing](#contributing)
+- [Feature Roadmap](#feature-roadmap)
 - [License](#license)
 - [Contact](#contact)
 
