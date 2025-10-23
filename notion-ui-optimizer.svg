@@ -1,0 +1,4 @@
+<svg viewBox="0 0 500 500" width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <rect x="35" y="35" width="430" height="430" rx="60" fill="white" stroke="black" stroke-width="25"/>
+  <text x="250" y="330" text-anchor="middle" font-size="260" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="black">N</text>
+</svg>
