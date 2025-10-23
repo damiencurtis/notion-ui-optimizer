@@ -1,3 +1,27 @@
+<p align="center">
+  <img src="https://your-logo-url.png" alt="Logo" width="100"/>
+</p>
+<h2 align="center">YourProject</h2>
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20by-Vercel-black?style=flat-square"/>
+  <img src="https://img.shields.io/npm/v/yourproject?style=flat-square"/>
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Join_the_Community-purple?style=flat-square"/>
+</p>
+
+<p align="center">
+  <a href="https://vercel.com"> <img src="https://img.shields.io/badge/Made%20by-Vercel-black?style=flat-square"/> </a>
+  <a href="https://npmjs.com/package/yourproject"> <img src="https://img.shields.io/npm/v/yourproject?style=flat-square"/> </a>
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square"/>
+  <a href="https://github.com/yourorg/yourrepo"> <img src="https://img.shields.io/badge/Join_the_Community-purple?style=flat-square"/> </a>
+</p>
+
+<p align="center">
+  <img src="https://your-logo-url.png" alt="Project Logo" width="100"/>
+</p>
+<h1 align="center">YourProjectName</h1>
+
+
 # notion-ui-optimizer
 
 A custom userscript for [Tampermonkey](https://www.tampermonkey.net/) that streamlines [Notion.so’s](https://www.notion.so/) web UI, minimizing distractions and maximizing space for a crisp user experience.
