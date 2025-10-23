@@ -80,18 +80,15 @@ Some UI updates might not be instant if Notion changes how sections load.
 
 ---
 
-### Contributing
-Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
-
----
-
-### Feature Roadmap
+## Feature Roadmap
 These are upcoming improvements planned for the Notion script:
 
 - [ ] Optimize spacing in header on Notion page
 - [ ] Remove "Notion AI" option in sidebar
 - [ ] Disable comments feature on all pages by default
 - [ ] Enable "Full width" setting on all pages by default
+
+Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
       
 ---
 
