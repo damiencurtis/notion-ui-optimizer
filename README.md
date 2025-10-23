@@ -33,7 +33,7 @@ Runs automatically in Tampermonkey ([Chrome](https://chromewebstore.google.com/d
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
 2. Create a new userscript and add the latest _notion-ui-optimizer_ code
-3. Save and reload [https://www.notion.so](https://www.notion.so)
+3. Save and reload [Notion](https://www.notion.so)
 4. Enable user scripts in browser extension settings
 5. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
 
@@ -41,7 +41,7 @@ Runs automatically in Tampermonkey ([Chrome](https://chromewebstore.google.com/d
 
 ## Usage
 
-- Runs automatically on all Notion pages (*://www.notion.so/*)
+- Runs automatically on all Notion pages
 - Waits for UI elements to load and reliably applies changes with retries if needed
 - Monitors page updates in real time
 - Uses debounced event handling to keep performance smooth on resize
