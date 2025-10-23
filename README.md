@@ -1,102 +1,73 @@
 # notion-ui-optimizer
 
-A custom userscript built to optimize the Notion.so web interface by streamlining the layout and reducing visual distractions, creating a crisp and more efficient user experience.
+A custom userscript for [Tampermonkey](https://www.tampermonkey.net/) that streamlines [Notion.so’s](https://www.notion.so/) web UI, minimizing distractions and maximizing space for a crisp user experience.
 
-Features:
-- Hides unwanted buttons  
-- Renames sidebar labels  
-- Repositions UI elements to save space  
-- Fixes minor rendering quirks 
-
-Runs seamlessly in the Tampermonkey extension on Google Chrome.
+Runs automatically in Tampermonkey ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/))
 
 ---
 
 ## Table of Contents
 
-- [Full Features](#full-features)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Development Notes](#development-notes)
 - [Known Limitations](#known-limitations)
-- [Feature Roadmap](#feature-roadmap)
+- [Roadmap](#roadmap)
 - [License](#license)
 - [Contact](#contact)
 
 ---
 
-## Full Features
+## Features
 
-- Hides specific UI buttons by targeting their SVG icons (e.g., lock, comment, star, mail icons).  
-- Renames the sidebar label "Private" to "Personal".  
-- Forces the Shared section to re-render for proper display.  
-- Continuously monitors the UI to apply changes as pages load dynamically.  
-- Debounces UI updates during window resize to improve performance.  
-- Detailed console logging for debugging (can be toggled).  
-- Compact header layout: reduces spacing when no cover image is present, aligns "Add cover" button with the page icon, restores default layout when a cover is added.  
-- Automatic hiding of Notion AI button.
+- Hides specific UI buttons (for example — lock, comment, star, mail icons, notion ai)
+- Renames the sidebar label "Private" to "Personal"
+- Optimizes header spacing and layout
+- Continuously adapts to page updates for seamless performance
+- Uses debounced event handling for efficient window resizing
+- Provides toggleable console logging for debugging
 
 ---
 
 ## Installation
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension (Chrome, Firefox, Edge, etc.).  
-2. Create a new userscript and paste the entire `notion-ui-optimizer` script into it.  
-3. Save the userscript and visit [https://www.notion.so](https://www.notion.so). The script will automatically activate.  
-4. Open the browser console (F12 or Ctrl+Shift+I) to view logs if needed.
+1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
+2. Create a new userscript and add the latest _notion-ui-optimizer_ code
+3. Save and reload [https://www.notion.so](https://www.notion.so)
+4. Enable user scripts in browser extension settings
+5. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
 
 ---
 
 ## Usage
 
-- The script runs automatically on any Notion page (`*://www.notion.so/*`).  
-- It waits for Notion’s sidebar and Shared section to load before applying UI optimizations.  
-- UI elements are hidden and renamed dynamically as needed.  
-- On window resize, UI cleanup functions run after a short delay (debounced).  
-- Enable or disable logging by setting `ENABLE_LOGGING` to `true` or `false` in the script.
-
----
-
-## Configuration
-
-- To toggle console logging, edit the line:  
-  ```js
-  const ENABLE_LOGGING = true; // Set to false to disable logs
-
-- To modify which buttons are hidden, update the svgClassTargets array in the script.
-
----
-
-## Development Notes
-The script uses MutationObserver to detect when Notion’s sidebar loads, then initializes itself.
-
-Functions use retries with delays to handle dynamic content loading in Notion.
-
-The script employs a debounced function wrapper to avoid performance issues during rapid events like window resizing.
-
-Versioning follows semantic rules within the script metadata.
+- Runs automatically on all Notion pages (*://www.notion.so/*)
+- Waits for UI elements to load and reliably applies changes with retries if needed
+- Monitors page updates in real time
+- Uses debounced event handling to keep performance smooth on resize
+- Customize:
+  - Change which buttons are hidden by editing svgClassTargets in the script
+  - Toggle console logging via const ENABLE_LOGGING = true; (set to false to disable)
 
 ---
 
 ## Known Limitations
-UI element selectors rely on Notion’s current DOM structure, which may change and break the script.
 
-The script currently only supports English UI labels.
-
-Some UI updates might not be instant if Notion changes how sections load.
+- May break if Notion updates their DOM
+- English UI labels only
+- Some changes might be delayed if Notion changes loading behavior
 
 ---
 
-## Feature Roadmap
-These are upcoming improvements planned for the Notion script:
+## Roadmap
+Planned improvements:
 
-- [ ] Optimize spacing in header on Notion page
-- [ ] Remove "Notion AI" option in sidebar
-- [ ] Disable comments feature on all pages by default
-- [ ] Enable "Full width" setting on all pages by default
+ - [ ]  Optimize header spacing
+ - [ ]  Remove Notion AI sidebar option
+ - [ ]  Disable comments feature by default
+ - [ ]  Enable “Full width” setting by default
 
-Contributions, issues, and feature requests are welcome! Please open an issue or submit a pull request.
+Feedback and contributions are welcome—open an issue or pull request!
       
 ---
 
@@ -104,6 +75,6 @@ Contributions, issues, and feature requests are welcome! Please open an issue or
 <small>MIT License © Damien Curtis<small>
 
 ## Contact
-Feel free to reach out or follow me for updates!
+Reach out or follow for updates!
 
-<sub>Last modified: 2025-07-06</sub>
+<sub>Last modified: 2025-10-23</sub>
