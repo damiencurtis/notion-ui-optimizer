@@ -1,7 +1,8 @@
 <p align="center">
   <!-- Logo (Optional) -->
   <!-- <img src="https://your-logo-url.png" alt="Logo" width="100"/> -->
-  ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg)
+
+
 
 </p>
 <h1 align="center">notion-ui-optimizer</h1>
