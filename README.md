@@ -4,7 +4,7 @@
 
   <img src="./notion-ui-optimizer.svg?refresh=1" alt="Notion UI Optimizer Logo" width="120">
 
-
+  ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg)
 
 </p>
 <h1 align="center">notion-ui-optimizer</h1>
