@@ -1,6 +1,14 @@
 # notion-ui-optimizer
 
-A userscript that enhances the Notion.so web UI by hiding certain unwanted buttons, renaming sidebar labels, and ensuring the Shared section renders properly. It improves the Notion interface by cleaning up clutter and fixing some UI rendering quirks. Run inside Tampermonkey.
+A custom userscript built to optimize the Notion.so web interface by streamlining the layout and reducing visual distractions, creating a crisp and more efficient user experience.
+
+Features:
+- Hides unwanted buttons  
+- Renames sidebar labels  
+- Repositions UI elements to save space  
+- Fixes minor rendering quirks 
+
+Runs seamlessly in the Tampermonkey extension on Google Chrome.
 
 ---
 
@@ -18,7 +26,7 @@ A userscript that enhances the Notion.so web UI by hiding certain unwanted butto
 
 ---
 
-## Features
+## Full Features
 
 - Hides specific UI buttons by targeting their SVG icons (e.g., lock, comment, star, mail icons).  
 - Renames the sidebar label "Private" to "Personal".  
