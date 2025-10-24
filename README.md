@@ -18,7 +18,8 @@
   <a href="https://github.com/damiencurtis/notion-ui-optimizer/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square"/></a>
 </p>
 
-A custom userscript that streamlines [Notion.so’s](https://www.notion.so/) web UI, minimizing distractions and maximizing space for a crisp user experience. Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/))
+A custom userscript that streamlines [Notion.so’s](https://www.notion.so/) web UI, minimizing distractions and maximizing space for a crisp user experience.
+Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/))
 
 ---
 
