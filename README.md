@@ -49,12 +49,10 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
-2. Create a new userscript and add the latest _notion-ui-optimizer_ code notion-ui-optimizer-1.2.js
-3. Create a new userscript in Tampermonkey and paste the latest Notion UI Optimizer code.
-   The current source file is **notion-ui-optimizer-1.2.js**.
-5. Save and reload [Notion](https://www.notion.so)
-6. Enable user scripts in browser extension settings
-7. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
+2. Create a new userscript in Tampermonkey and paste the latest Notion UI Optimizer code. The current source file is **notion-ui-optimizer-1.2.js**.
+3. Save and reload [Notion](https://www.notion.so)
+4. Enable user scripts in browser extension settings
+5. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
 
 ---
 
