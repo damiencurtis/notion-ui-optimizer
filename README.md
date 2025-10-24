@@ -48,10 +48,11 @@ A custom userscript that streamlines [Notion.so’s](https://www.notion.so/) web
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
-2. Create a new userscript and add the latest _notion-ui-optimizer_ code
-3. Save and reload [Notion](https://www.notion.so)
-4. Enable user scripts in browser extension settings
-5. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
+2. Create a new userscript and add the latest _notion-ui-optimizer_ code notion-ui-optimizer-1.2.js
+3. Create a new userscript in Tampermonkey and paste the latest Notion UI Optimizer code. The current source file is **notion-ui-optimizer-1.2.js**.
+4. Save and reload [Notion](https://www.notion.so)
+5. Enable user scripts in browser extension settings
+6. To view debugging logs, open the browser console (F12 or Ctrl+Shift+I)
 
 ---
 
