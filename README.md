@@ -2,8 +2,7 @@
   <!-- Logo (Optional) -->
   <!-- <img src="https://your-logo-url.png" alt="Logo" width="100"/> -->
 
-  <img src="./notion-ui-optimizer.svg?refresh=1" alt="Notion UI Optimizer Logo" width="120">
-
+  <img src="./notion-ui-optimizer.svg?refresh=4" alt="Notion UI Optimizer Logo" width="120">
   ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg)
 
 </p>
