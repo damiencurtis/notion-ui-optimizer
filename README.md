@@ -1,21 +1,37 @@
 <p align="center">
-  <!-- Logo (Optional) -->
-  <!-- <img src="https://your-logo-url.png" alt="Logo" width="100"/> -->
-
+  <!-- Logo -->
   <img src="./notion-ui-optimizer.svg?refresh=4" alt="Notion UI Optimizer Logo" width="120">
-  
-  ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg)
-
+  <!-- ![Notion UI Optimizer Logo](./notion-ui-optimizer.svg) -->
 </p>
 <h1 align="center">notion-ui-optimizer</h1>
 <p align="center"><i>Streamline Notion’s interface. Hide distractions, unlock productivity.</i></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20for-Notion-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Support-Tampermonkey-yellow?style=flat-square"/>
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square"/>
+  <!-- Made For -->
+  <a href="https://www.notion.so">
+    <img src="https://img.shields.io/badge/Made%20for-Notion-blue?style=flat-square"/>
+  </a>
+
+  <!-- Version -->
+  <a href="https://github.com/damiencurtis/notion-ui-optimizer/releases">
+    <img src="https://img.shields.io/badge/Version-1.2.0-blue?style=flat-square"/>
+  </a>
+
+  <!-- License -->
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
+  </a>
+
+  <!-- Support -->
+  <a href="https://www.tampermonkey.net">
+    <img src="https://img.shields.io/badge/Support-Tampermonkey-yellow?style=flat-square"/>
+  </a>
+
+  <!-- Pull Requests -->
+  <a href="https://github.com/damiencurtis/notion-ui-optimizer/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square"/>
+  </a>
 </p>
+
 
 A custom userscript for [Tampermonkey](https://www.tampermonkey.net/) that streamlines [Notion.so’s](https://www.notion.so/) web UI, minimizing distractions and maximizing space for a crisp user experience.
 
