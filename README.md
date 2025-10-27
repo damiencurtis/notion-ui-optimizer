@@ -79,22 +79,20 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 ## Roadmap
 Planned improvements:
 
-**Header and Layout**
+Header and Layout:
  - [ ] Optimize header spacing; restructure or remove page title/icon
  - [ ] Enable "Full width" setting by default
  - [ ] Resolve "Board View" margin collapse triggered by header block addition
  - [ ]  Change display of "Shared section"
 
-**Side Panel Adjustments**
-(*left)
+Side Panel Adjustments:
  - [ ] Remove "Inbox" button
  - [ ] Remove "Notion AI" button
  - [ ] Reposition "Settings/Trash" buttons; remove associated text
  - [ ] Remove "Download Notion for Desktop" button
-(*right)
-- [ ] Disable "Outline" side panel
+- [ ] Disable "Outline" side panel (right)
 
-**Functionality & Defaults**
+Functionality & Defaults:
  - [ ] Disable comments by default
  - [ ] Add feature flags to toggle functionalities
 
