@@ -33,6 +33,7 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 - [License](#license)
 - [Contact](#contact)
 
+
 ---
 
 ## Features
@@ -65,6 +66,10 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 - Customize:
   - Change which buttons are hidden by editing svgClassTargets in the script
   - Toggle console logging via const ENABLE_LOGGING = true; (set to false to disable)
+
+Screenshots:
+[![Before](https://github.com/user-attachments/assets/1b9217a9-eaa5-4191-9549-9e444f72310d)](https://github.com/user-attachments/assets/1b9217a9-eaa5-4191-9549-9e444f72310d)
+[![After](https://github.com/user-attachments/assets/a8e9d28a-4cb5-4c97-ab4c-ae4214be69fe)](https://github.com/user-attachments/assets/a8e9d28a-4cb5-4c97-ab4c-ae4214be69fe)
 
 ---
 
