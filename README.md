@@ -82,7 +82,8 @@ Planned improvements:
  - [ ]  Optimize header spacing
  - [ ]  Remove Notion AI sidebar option
  - [ ]  Disable comments feature by default
- - [ ]  Enable “Full width” setting by default
+ - [ ]  Enable "Full width" setting by default
+ - [ ]  Resolve "board view" margin collpase triggered by header block
 
 Feedback and contributions are welcome—open an issue or pull request!
       
