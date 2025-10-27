@@ -79,11 +79,24 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 ## Roadmap
 Planned improvements:
 
- - [ ]  Optimize header spacing
- - [ ]  Remove Notion AI sidebar option
- - [ ]  Disable comments feature by default
- - [ ]  Enable "Full width" setting by default
- - [ ]  Resolve "board view" margin collpase triggered by header block
+**Header and Layout**
+ - [ ] Optimize header spacing; restructure or remove page title/icon
+ - [ ] Enable "Full width" setting by default
+ - [ ] Resolve "Board View" margin collapse triggered by header block addition
+ - [ ]  Change display of "Shared section"
+
+**Side Panel Adjustments**
+(*left)
+ - [ ] Remove "Inbox" button
+ - [ ] Remove "Notion AI" button
+ - [ ] Reposition "Settings/Trash" buttons; remove associated text
+ - [ ] Remove "Download Notion for Desktop" button
+(*right)
+- [ ] Disable "Outline" side panel
+
+**Functionality & Defaults**
+ - [ ] Disable comments by default
+ - [ ] Add feature flags to toggle functionalities
 
 Feedback and contributions are welcome—open an issue or pull request!
       
