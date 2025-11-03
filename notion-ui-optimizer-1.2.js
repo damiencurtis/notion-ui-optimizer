@@ -2,7 +2,7 @@
 // @name         notion-ui-optimizer 1.2
 // @namespace    http://tampermonkey.net/
 // @version      1.2
-// @description  Last modified: 2025-10-07
+// @description  Last modified: 2025-11-03
 // @author       damienc
 // @match        *://www.notion.so/*
 // @license      MIT
@@ -39,9 +39,14 @@
         'svg.commentFilled',
         'svg.star',
         'svg.home',
+        'svg.inbox',
+        'svg.aiFace',
         'svg.templates',
         'svg.inviteMember',
         'svg.mail',
+        'svg.notionTintable',
+        'svg.calendarDate03',
+        'svg.boxOpenSparkle',
         'svg.questionMarkCircle'
     ];
 
