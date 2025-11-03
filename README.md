@@ -83,14 +83,14 @@ Header and Layout:
  - [ ] Optimize header spacing; restructure or remove page title/icon
  - [ ] Enable "Full width" setting by default
  - [ ] Resolve "Board View" margin collapse triggered by header block addition
- - [ ]  Change display of "Shared section"
+ - [ ] Change display of "Shared section"
 
 Side Panel Adjustments:
- - [ ] Remove "Inbox" button
- - [ ] Remove "Notion AI" button
+~~- [ ] Remove "Inbox" button~~
+~~- [ ] Remove "Notion AI" button~~
  - [ ] Reposition "Settings/Trash" buttons; remove associated text
- - [ ] Remove "Download Notion for Desktop" button
-- [ ] Disable "Outline" side panel (right)
+ ~~- [ ] Remove "Download Notion for Desktop" button~~
+ - [ ] Disable "Outline" side panel (right)
 
 Functionality & Defaults:
  - [ ] Disable comments by default
