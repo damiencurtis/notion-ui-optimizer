@@ -86,11 +86,13 @@ Header and Layout:
  - [ ] Change display of "Shared section"
 
 Side Panel Adjustments:
-~~- [ ] Remove "Inbox" button~~
-~~- [ ] Remove "Notion AI" button~~
- - [ ] Reposition "Settings/Trash" buttons; remove associated text
- ~~- [ ] Remove "Download Notion for Desktop" button~~
- - [ ] Disable "Outline" side panel (right)
+
+- [ ] Reposition "Settings/Trash" buttons; remove associated text
+- [ ] Disable "Outline" side panel (right)
+- [ ] ~~Remove "Inbox" button~~
+- [ ] ~~Remove "Notion AI" button~~
+- [ ] ~~Remove "Download Notion for Desktop" button~~
+
 
 Functionality & Defaults:
  - [ ] Disable comments by default
