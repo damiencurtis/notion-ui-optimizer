@@ -43,6 +43,8 @@ Runs automatically in [Tampermonkey](https://www.tampermonkey.net/) ([Chrome](ht
 - Continuously adapts to page updates for seamless performance
 - Uses debounced event handling for efficient window resizing
 - Provides toggleable console logging for debugging
+- "Full width" is set by default on all pages
+- "Comments" feature is disabled by default
 
 ---
 
@@ -81,22 +83,23 @@ Planned improvements:
 
 Header and Layout:
  - [ ] Optimize header spacing; restructure or remove page title/icon
- - [ ] Resolve "Board View" margin collapse triggered by header block addition
+ - [ ] Stop Outline section from opening unless explicitly selected
+ - [ ] Resolve Database block rendering issue when Outline section is open 
  - [ ] Change display of "Shared section"
  - [ ] ~~Enable "Full width" setting by default~~
 
 Side Panel Adjustments:
 
 - [ ] Reposition "Settings/Trash" buttons; remove associated text
-- [ ] Disable "Outline" side panel (right)
 - [ ] ~~Remove "Inbox" button~~
 - [ ] ~~Remove "Notion AI" button~~
 - [ ] ~~Remove "Download Notion for Desktop" button~~
 
 
 Functionality & Defaults:
- - [ ] Disable comments by default
- - [ ] Add feature flags to toggle functionalities
+- [ ] Add feature flags to toggle functionalities
+- [ ] ~~Disable comments by default~~
+ 
 
 Feedback and contributions are welcome—open an issue or pull request!
       
