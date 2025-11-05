@@ -81,9 +81,9 @@ Planned improvements:
 
 Header and Layout:
  - [ ] Optimize header spacing; restructure or remove page title/icon
- - [ ] Enable "Full width" setting by default
  - [ ] Resolve "Board View" margin collapse triggered by header block addition
  - [ ] Change display of "Shared section"
+ - [ ] ~~Enable "Full width" setting by default~~
 
 Side Panel Adjustments:
 
